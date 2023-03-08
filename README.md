@@ -1,11 +1,11 @@
-About scitacean
-===============
+About scitacean-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scitacean-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/scitacean/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scitacean-feedstock/blob/main/LICENSE.txt)
 
 Summary: High-level interface for SciCat
 
