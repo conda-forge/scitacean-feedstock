@@ -1,5 +1,5 @@
 {% set name = "scitacean" %}
-{% set version = "23.1.1" %}
+{% set version = "23.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scitacean-{{ version }}.tar.gz
-  sha256: 93d0215dde4f2ea9693f2daa223b7a9aa11114ad5103c4c0bbaab2ab76f2cfa5
+  sha256: dd0bc2040a0072fb45c24b7fb5b1b1905f567e5bcbe8040a1826a5b89fa93432
 
 build:
   noarch: python
