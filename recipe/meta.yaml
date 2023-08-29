@@ -22,6 +22,8 @@ requirements:
     - python >=3.8
     - email-validator
     - fabric
+    - filelock
+    - paramiko
     - pydantic
     - python-dateutil
     - requests
