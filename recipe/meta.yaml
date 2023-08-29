@@ -1,5 +1,5 @@
 {% set name = "scitacean" %}
-{% set version = "23.5.0" %}
+{% set version = "23.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scitacean-{{ version }}.tar.gz
-  sha256: d09a034fcd44a8908ddaaa482f2aa3c12e648486b0a7b9791e430e13f25eebce
+  sha256: b0299fdd3df5b62d680713003dba4cbae5ac6c24251370937a5dcd7d00ecf50f
 
 build:
   noarch: python
@@ -22,6 +22,8 @@ requirements:
     - python >=3.8
     - email-validator
     - fabric
+    - filelock
+    - paramiko
     - pydantic
     - python-dateutil
     - requests
