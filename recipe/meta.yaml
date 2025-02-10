@@ -4,7 +4,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scitacean-{{ version }}.tar.gz
@@ -13,13 +13,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
     - setuptools >=68
+    - setuptools-scm >=8.0
   run:
     - python >={{ python_min }}
     - email-validator >=2
