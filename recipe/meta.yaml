@@ -1,5 +1,5 @@
 {% set name = "scitacean" %}
-{% set version = "25.1.0" %}
+{% set version = "25.3.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scitacean-{{ version }}.tar.gz
-  sha256: 2af20372815cb2c2094da8f7b9fb6d7c55df92cf42c64555668eda073f3c78ed
+  sha256: 69d64d68f5be5e6af01ee06a55b018e69865ae7538bf233ba483e92610497260
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
