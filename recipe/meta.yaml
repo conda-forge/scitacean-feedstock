@@ -28,6 +28,7 @@ requirements:
     - paramiko >=3
     - pydantic >=2
     - python-dateutil >=2.8
+    - tomli >=2.2.0
 
 test:
   imports:
