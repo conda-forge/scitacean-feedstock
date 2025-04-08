@@ -39,9 +39,10 @@ tests:
       python_version: ${{ python_min }}.*
 
 about:
-  home: https://pypi.org/project/scitacean/
+  homepage: https://pypi.org/project/scitacean/
   summary: High-level interface for SciCat
-  dev_url: https://github.com/SciCatProject/scitacean
+  repository: https://github.com/SciCatProject/scitacean
+  documentation: https://scicatproject.github.io/scitacean/
   license: BSD-3-Clause
   license_file: LICENSE
 
