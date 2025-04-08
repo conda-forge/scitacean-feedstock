@@ -11,6 +11,8 @@ Summary: High-level interface for SciCat
 
 Development: https://github.com/SciCatProject/scitacean
 
+Documentation: https://scicatproject.github.io/scitacean/
+
 Current build status
 ====================
 
