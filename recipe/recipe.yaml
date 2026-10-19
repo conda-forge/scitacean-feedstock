@@ -1,3 +1,5 @@
+schema_version: 1
+
 context:
   name: scitacean
   version: "26.10.0"
@@ -34,7 +36,9 @@ tests:
       imports:
         - scitacean
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   homepage: https://pypi.org/project/scitacean/
