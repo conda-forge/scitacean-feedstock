@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: scitacean
-  version: "26.10.0"
+  version: "26.10.1"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scitacean-${{ version }}.tar.gz
-  sha256: 66dfe6f3894ae1505fc409b3ee5c333c721e379a2c27e5f78121471bdf0d4c4a
+  sha256: 2d908cd9bd99f3ab92e2e9fab85e3ca9a6cb5f58f44dd977317ec69b92341ca0
 
 build:
   noarch: python
